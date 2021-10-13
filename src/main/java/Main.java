@@ -5,7 +5,11 @@ public class Main {
     long amount = 1000_60;
     boolean registered = true;
 
-    service.calculate(amount, registered);
+
+    long acting = service.calculate(amount, registered);
+    // выводим результат
+    System.out.println(acting);
+
   }
 }
 
